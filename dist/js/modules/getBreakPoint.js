@@ -1,0 +1,1 @@
+define([],function(){"use strict";return function(){return"function"==typeof window.getComputedStyle?window.getComputedStyle(document.body,":after").getPropertyValue("content").replace(/\"/g,""):"m"}});

@@ -1,0 +1,7 @@
+
+main.js
+----------------
+libs/jquery/jquery.js
+libs/lodash/lodash.js
+apps/master/app.js
+main.js

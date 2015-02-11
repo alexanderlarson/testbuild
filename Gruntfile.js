@@ -41,6 +41,17 @@ module.exports = function(grunt) {
     ]);
   });
 
+  grunt.registerTask('heroku', [
+    'clean:dist',
+    'bowercopy:dev',
+    'compass:dist',
+    'concurrent:dist',
+    'copy:dist',
+    'modernizr:dist',
+    'requirejs:dist',
+    'string-replace:dist',
+  ]);
+
   grunt.registerTask('dist', 'build all static files', [
     'clean:dist',
     'bowercopy:dev',

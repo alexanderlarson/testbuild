@@ -29,7 +29,7 @@ module.exports = function(grunt) {
       options: {
         debugInfo: false,
         outputStyle: 'compressed',
-        cssDir: config.distCSS
+        cssDir: 'dist/css'
       }
     }
   };

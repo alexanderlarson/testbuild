@@ -16,8 +16,7 @@ define('apps/master/app', [
    * Gets the application running
    */
   App.start = function() {
-
-    $('h1').css('color', 'red');
+    
   };
 
   return App;

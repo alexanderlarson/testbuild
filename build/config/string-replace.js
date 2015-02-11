@@ -14,7 +14,7 @@ module.exports = function(grunt) {
       options: {
         replacements: [
           {
-            pattern: 'app.css',
+            pattern: 'app.min.css',
             replacement: 'app.min.css'
           }
         ]
